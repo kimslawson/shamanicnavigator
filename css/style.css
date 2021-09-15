@@ -996,7 +996,8 @@ body {
 }
 html.normal #header, html.wide #header, html.global #header {
     background-image: url('../images/magic-carpet-ride.jpg');
-    background-size: auto; /* don't stretch the big header image */
+/*    background-size: auto; /* don't stretch the big header image */
+	background-size: contain; /* no, really, don't stretch it! */
     background-position: 50% 60%; /* don't cut off bottom of title text in image */
 }
 html.normal #header header, html.wide #header header, html.global #header header {
